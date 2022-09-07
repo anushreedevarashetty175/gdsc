@@ -1,0 +1,23 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+
+print ("Output 1" )
+string = 'ComputerProgrammingIsForGeeks1234' 
+new_string = ''.join(chr(ord(char)+1) for char in string) 
+print(new_string)
+
+print ("Output 2")
+string = "ComputerProgrammingIsForGeeks1234"
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+result = ""
+
+for i in range(len(string)):
+    if string[i] not in vowels:
+        result = result + string[i]
+
+txt = "CmptrPrgrmmngsFrGks1234" [::-1]
+print(txt)
+
+print ("output 3")
+txt = "ComputerProgrammingIsForGeeks1234" [::2]
+print(txt)
